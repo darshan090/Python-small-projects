@@ -29,7 +29,7 @@ for i in range(TOTAL_PROBLEMS):
         wrong += 1
         
 end_time = time.time()
-total_time = end_time - start_time
+total_time = round(end_time - start_time)
         
 print("--------------------------")
-print("Nice work! You took " + str(total_time) + " time to solve all problems")
+print("Nice work! You took",total_time,"seconds time to solve all problems")
